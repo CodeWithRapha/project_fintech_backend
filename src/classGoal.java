@@ -31,5 +31,7 @@ public class classGoal {
         System.out.println("Goal updated: " + this.goalId);
     }
 
+    public void setsavedAmount(double v) {
+    }
 }
-}
+

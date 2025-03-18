@@ -5,11 +5,11 @@ public class classDash {
     // Atributos
     private String userId;
     private Map<String, Double> financialSummary; // Ex: renda e despesas totais
-    private List<Transaction> recentTransactions;
-    private List<Goal> activeGoals;
+    private List<classTransaction> recentTransactions;
+    private List<classGoal> activeGoals;
 
     // Construtor de parâmetros
-    public classDash(String userId, Map<String, Double> financialSummary, List<Transaction> recentTransactions, List<Goal> activeGoals) {
+    public classDash(String userId, Map<String, Double> financialSummary, List<classTransaction> recentTransactions, List<classGoal> activeGoals) {
         this.userId = userId;
         this.financialSummary = financialSummary;
         this.recentTransactions = recentTransactions;
@@ -37,4 +37,4 @@ public class classDash {
         System.out.println("Dashboard refreshed for user: " + this.userId);
     }
 }
-}
+

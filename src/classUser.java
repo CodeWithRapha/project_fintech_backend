@@ -26,4 +26,4 @@ public class classUser {
         System.out.println("User registered: " + this.name);
     }
 }
-}
+
